@@ -16,11 +16,12 @@
     <PackageReference Include="NUnit3TestAdapter" Version="6.2.0" />
     <PackageReference Include="coverlet.collector" Version="10.0.1" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PolyhydraGames.BGG\PolyhydraGames.BGG.csproj" />
+  </ItemGroup>
     
   <ItemGroup>
     <Resource Include="test.txt" />
   </ItemGroup>
-
- 
-
 </Project>
